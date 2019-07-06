@@ -12,8 +12,11 @@ int main(int argc, char *argv[]) {
   vendor += string((const char *)&cpuID.EBX(), 4);
   vendor += string((const char *)&cpuID.EDX(), 4);
   vendor += string((const char *)&cpuID.ECX(), 4);
-
+  cout << "----------------------------------" << endl;
   cout << "CPU vendor = " << vendor << endl;
+  cout << "----------------------------------" << endl;
+  cout << "----------------------------------" << endl;
+  
 
   return 0;
 }
